@@ -8,9 +8,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "/assets/image/logo.png",
     nav: [
-      { text: 'API', link: '/' },
-      { text: '博客', link: '/blog' },
-      { text: '技术支持', link: '/markdown-examples' },
+      { text: 'API', link: '/api-examples' },
+      { text: '博客', link: '/blog/create-component.md' },
+      { text: '技术支持', link: '/support/first.md' },
        { text: '链接',
         items: [
           { text: 'gitee', link: '/item-1' },
@@ -18,13 +18,23 @@ export default defineConfig({
         ]
        }
     ],
+    
+    
 
     sidebar: [
-      {
+    {
         text: '博客',
         items: [
-          { text: '艺术来源开发', link: '/excel-download.md' },
-          { text: '前端excel', link: '/excel-download.md' }
+          { text: 'Vue3函数式调用组件', link: '/blog/create-component.md' },
+          { text: '前端Table下载excle', link: '/blog/excel-download.md' }
+        ]
+      },
+      {
+        text: '技术支持',
+        items: [
+          { text: '序言', link: '/support/first.md' },
+          { text: 'AlovaJs', link: '/support/alovajs.md' },
+          { text: 'apeVolo后端框架', link: '/support/ape-volo.md' }
         ]
       }
     ],
