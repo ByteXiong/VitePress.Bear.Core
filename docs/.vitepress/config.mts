@@ -34,7 +34,7 @@ export default defineConfig({
         items: [
           { text: '序言', link: '/support/first.md' },
           { text: 'AlovaJs', link: '/support/alovajs.md' },
-          { text: 'apeVolo后端框架', link: '/support/ape-volo.md' }
+          { text: 'ApeVolo后端框架', link: '/support/ape-volo.md' }
         ]
       }
     ],

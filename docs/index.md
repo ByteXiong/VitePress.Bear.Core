@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Bear.Core.Admin"
-  text: "重新定义API集成\n简单\t快速\t高效"
+  text: "重新定义API集成\n简单\t精准\t高效"
   tagline: "基于.NetCore，Vue3，Uni-App\nSqlSugar，Element Plus，Wot-Design-Uni"
   image: "/assets/image/logo.png"
   actions:
@@ -17,15 +17,15 @@ hero:
 
 features:
   - title: 多端覆盖
-    details: 支持 微信小程序、支付宝小程序、钉钉小程序、H5、APP 等平台。
+    details: 支持 Web、微信小程序、支付宝小程序、钉钉小程序、H5、APP、鸿蒙等端。
   - title: 跨平台支持
     details: 支持 Windows、Linux、macOS 等多平台
-  - title: 低代码开发
-    details: 使用低代码开发，无需编写任何代码，即可快速上线。
+  - title: 通用场景
+    details: 可用于多种业务场景，如后台管理、CRM 、OA 、WMS 、快递 、ERP 等。
   - title:  前后端 API 快速集成
     details: 使用AlovaJs快速生成前端API,无需编写任何代码。
-  - title: TypeScript 支持
-    details: 使用 Typescript 构建，提供良好的组件类型系统。
+  - title: 技术选型
+    details: .Net 8、SqlSugar、AlovaJs、Vue3、Elment Plus 等前后端技术。
   - title: 动态国际化
     details: 支持国际化，支持动态配置。
   - title: 权限控制
