@@ -6,7 +6,7 @@ hero:
   name: "Bear.Core.Admin"
   text: "重新定义API集成\n简单\t精准\t高效"
   tagline: "基于.NetCore，Vue3，Uni-App\nSqlSugar，Element Plus，Wot-Design-Uni"
-  image: "/assets/image/logo.png"
+  image: "/image/logo.png"
   actions:
     - theme: brand
       text: 开始

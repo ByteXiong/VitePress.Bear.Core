@@ -6,7 +6,7 @@ export default defineConfig({
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/assets/image/logo.png",
+    logo: "/image/logo.png",
     nav: [
       { text: 'API', link: '/api-examples' },
       { text: '博客', link: '/blog/create-component.md' },
