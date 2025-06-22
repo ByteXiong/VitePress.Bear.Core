@@ -1,5 +1,5 @@
 export default {
-  base: '/',
+  base: '/VitePress.Bear.Core/',
   title: 'Bear.Core 文档',
   description: '轻量灵活的 C# 核心库',
 }

@@ -3,28 +3,30 @@ name: Deploy VitePress to GitHub Pages
 on:
   push:
     branches:
-      - master  # 如果你的主分支是 master，这里也改为 master
+      - master  # 如果你主分支不是 main，改成 master
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout source
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - run: npm install
-      - run: npm run docs:build
+      - name: Install dependencies
+        run: npm install
 
-      - name: Add CNAME
-        run: echo 'bear.js.org' > docs/.vitepress/dist/CNAME
+      - name: Build VitePress site
+        run: npm run docs:build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
+          publish_branch: gh-pages
