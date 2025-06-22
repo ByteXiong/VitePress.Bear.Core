@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bear.Core 文档</title>
+    <meta name="description" content="轻量灵活的 C# 核心库">
+    <meta name="generator" content="VitePress v1.6.3">
+    <link rel="preload stylesheet" href="/assets/style.CkWmt-TH.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.B-1g4TNe.js"></script>
+    <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/assets/chunks/theme.BroeOw9J.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.Dgg8-8ov.js">
+    <link rel="modulepreload" href="/assets/blog_create-component.md.BqWisZvJ.lean.js">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-5d98c3a5><!--[--><!--]--><!--[--><span tabindex="-1" data-v-0b0ada53></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-0b0ada53>Skip to content</a><!--]--><!----><header class="VPNav" data-v-5d98c3a5 data-v-ae24b3ad><div class="VPNavBar" data-v-ae24b3ad data-v-6aa21345><div class="wrapper" data-v-6aa21345><div class="container" data-v-6aa21345><div class="title" data-v-6aa21345><div class="VPNavBarTitle" data-v-6aa21345 data-v-1168a8e4><a class="title" href="/" data-v-1168a8e4><!--[--><!--]--><!----><span data-v-1168a8e4>Bear.Core 文档</span><!--[--><!--]--></a></div></div><div class="content" data-v-6aa21345><div class="content-body" data-v-6aa21345><!--[--><!--]--><div class="VPNavBarSearch search" data-v-6aa21345><!----></div><!----><!----><div class="VPNavBarAppearance appearance" data-v-6aa21345 data-v-6c893767><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-checked="false" data-v-6c893767 data-v-5337faa4 data-v-1d5665e3><span class="check" data-v-1d5665e3><span class="icon" data-v-1d5665e3><!--[--><span class="vpi-sun sun" data-v-5337faa4></span><span class="vpi-moon moon" data-v-5337faa4></span><!--]--></span></span></button></div><!----><div class="VPFlyout VPNavBarExtra extra" data-v-6aa21345 data-v-bb2aa2f0 data-v-cf11d7a2><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-cf11d7a2><span class="vpi-more-horizontal icon" data-v-cf11d7a2></span></button><div class="menu" data-v-cf11d7a2><div class="VPMenu" data-v-cf11d7a2 data-v-b98bc113><!----><!--[--><!--[--><!----><div class="group" data-v-bb2aa2f0><div class="item appearance" data-v-bb2aa2f0><p class="label" data-v-bb2aa2f0>Appearance</p><div class="appearance-action" data-v-bb2aa2f0><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-checked="false" data-v-bb2aa2f0 data-v-5337faa4 data-v-1d5665e3><span class="check" data-v-1d5665e3><span class="icon" data-v-1d5665e3><!--[--><span class="vpi-sun sun" data-v-5337faa4></span><span class="vpi-moon moon" data-v-5337faa4></span><!--]--></span></span></button></div></div></div><!----><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-6aa21345 data-v-e5dd9c1c><span class="container" data-v-e5dd9c1c><span class="top" data-v-e5dd9c1c></span><span class="middle" data-v-e5dd9c1c></span><span class="bottom" data-v-e5dd9c1c></span></span></button></div></div></div></div><div class="divider" data-v-6aa21345><div class="divider-line" data-v-6aa21345></div></div></div><!----></header><div class="VPLocalNav empty fixed" data-v-5d98c3a5 data-v-a6f0e41e><div class="container" data-v-a6f0e41e><!----><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-a6f0e41e data-v-8a42e2b4><button data-v-8a42e2b4>Return to top</button><!----></div></div></div><!----><div class="VPContent" id="VPContent" data-v-5d98c3a5 data-v-1428d186><div class="VPDoc has-aside" data-v-1428d186 data-v-39a288b8><!--[--><!--]--><div class="container" data-v-39a288b8><div class="aside" data-v-39a288b8><div class="aside-curtain" data-v-39a288b8></div><div class="aside-container" data-v-39a288b8><div class="aside-content" data-v-39a288b8><div class="VPDocAside" data-v-39a288b8 data-v-3f215769><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-3f215769 data-v-a5bbad30><div class="content" data-v-a5bbad30><div class="outline-marker" data-v-a5bbad30></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-a5bbad30>On this page</div><ul class="VPDocOutlineItem root" data-v-a5bbad30 data-v-b933a997><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-3f215769></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-39a288b8><div class="content-container" data-v-39a288b8><!--[--><!--]--><main class="main" data-v-39a288b8><div style="position:relative;" class="vp-doc _blog_create-component" data-v-39a288b8><div><p><strong>Vue3函数式调用组件 createComponent</strong></p><p>== 调用结束要关闭 组件==</p><p>以调用 重写插槽为例</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>const openMonacoCode=async (row: TableColumnInfo)=&gt;{</span></span>
+<span class="line"><span>   //函数式组件 instance 为 ref , on 为 emit , unmount 为 destroy</span></span>
+<span class="line"><span>   const { instance, on, unmount } = await  createComponent( MonacoCode, { modelValue: row.attrs,visible: true } )</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>   on(&#39;Change&#39;, (code:string) =&gt; {</span></span>
+<span class="line"><span>    console.log(code);</span></span>
+<span class="line"><span>     row.attrs = code;</span></span>
+<span class="line"><span>   })</span></span>
+<span class="line"><span>   on(&#39;update:visible&#39;, () =&gt; {</span></span>
+<span class="line"><span>          unmount()</span></span>
+<span class="line"><span>   })</span></span>
+<span class="line"><span>}</span></span></code></pre></div><p><strong>子组件内部 (monaco-code.vue)</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>&lt;script setup lang=&quot;tsx&quot;&gt;</span></span>
+<span class="line"><span>import type * as monaco from &#39;monaco-editor&#39;;</span></span>
+<span class="line"><span>import { ref } from &#39;vue&#39;;</span></span>
+<span class="line"><span>import { $t } from &#39;@/locales&#39;;</span></span>
+<span class="line"><span>import customRender from &#39;@/utils/customRender&#39;;</span></span>
+<span class="line"><span>const language = ref(&#39;javascript&#39;);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 根据提示，将 defineModelValue 替换为 defineModel</span></span>
+<span class="line"><span>const value = defineModel&lt;string&gt;({</span></span>
+<span class="line"><span>  default: &#39;&#39;</span></span>
+<span class="line"><span>});</span></span>
+<span class="line"><span>const visible =defineModel&lt;boolean&gt;(&#39;visible&#39;, {</span></span>
+<span class="line"><span>  default: false</span></span>
+<span class="line"><span>})</span></span>
+<span class="line"><span>interface Emits {</span></span>
+<span class="line"><span>  (e: &#39;Change&#39;, value: string): void;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>const emit = defineEmits&lt;Emits&gt;();</span></span>
+<span class="line"><span>const columns = ref&lt;Array&lt;any&gt;&gt;([</span></span>
+<span class="line"><span>  {</span></span>
+<span class="line"><span>    type: &#39;selection&#39;,</span></span>
+<span class="line"><span>    align: &#39;center&#39;</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  {</span></span>
+<span class="line"><span>    key: &#39;name&#39;,</span></span>
+<span class="line"><span>    title: &#39;name&#39;,</span></span>
+<span class="line"><span>    align: &#39;center&#39;</span></span>
+<span class="line"><span>    // render: row =&gt; {</span></span>
+<span class="line"><span>    //   return h(&#39;p&#39;, Enum.MenuType[row.id]);</span></span>
+<span class="line"><span>    // }</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>]);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>const editorMounted = (editor: monaco.editor.IStandaloneCodeEditor) =&gt; {</span></span>
+<span class="line"><span>  editor.onDidChangeModelContent(() =&gt; {</span></span>
+<span class="line"><span>    // const value = editor.getValue();</span></span>
+<span class="line"><span>    // columns.value[2] = customRender(value || &#39;&#39;, h, naive)[0];</span></span>
+<span class="line"><span>  });</span></span>
+<span class="line"><span>};</span></span>
+<span class="line"><span>const title = ref(&#39;插槽编辑&#39;);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>const handleSubmit = () =&gt; {</span></span>
+<span class="line"><span>  emit(&#39;Change&#39;, value.value);</span></span>
+<span class="line"><span>  visible.value = false;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>};</span></span>
+<span class="line"><span>const handleClose = () =&gt; {</span></span>
+<span class="line"><span>  visible.value = false;</span></span>
+<span class="line"><span>};</span></span>
+<span class="line"><span>&lt;/script&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>&lt;template&gt;</span></span>
+<span class="line"><span>  &lt;ElDialog v-model=&quot;visible&quot; :title=&quot;title&quot; :append-to-body=&quot;true&quot; class=&quot;w-1400px&quot; &gt;</span></span>
+<span class="line"><span>    &lt;ElRow :gutter=&quot;24&quot;&gt;</span></span>
+<span class="line"><span>      &lt;ElCol :span=&quot;24&quot;&gt;</span></span>
+<span class="line"><span>        &lt;MonacoEditor</span></span>
+<span class="line"><span>          v-bind=&quot;$attrs&quot;</span></span>
+<span class="line"><span>          v-model:value=&quot;value&quot;</span></span>
+<span class="line"><span>          :language=&quot;language&quot;</span></span>
+<span class="line"><span>          width=&quot;100%&quot;</span></span>
+<span class="line"><span>          height=&quot;650px&quot;</span></span>
+<span class="line"><span>          @editor-mounted=&quot;editorMounted&quot;</span></span>
+<span class="line"><span>        &gt;&lt;/MonacoEditor&gt;</span></span>
+<span class="line"><span>      &lt;/ElCol&gt;</span></span>
+<span class="line"><span>    &lt;/ElRow&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    &lt;template #footer&gt;</span></span>
+<span class="line"><span>      &lt;ElSpace :size=&quot;16&quot; class=&quot;float-right&quot;&gt;</span></span>
+<span class="line"><span>        &lt;ElButton @click=&quot;handleClose&quot;&gt;{{ $t(&#39;common.cancel&#39;) }}&lt;/ElButton&gt;</span></span>
+<span class="line"><span>        &lt;ElButton type=&quot;primary&quot; @click=&quot;handleSubmit&quot;&gt;{{ $t(&#39;common.confirm&#39;) }}&lt;/ElButton&gt;</span></span>
+<span class="line"><span>      &lt;/ElSpace&gt;</span></span>
+<span class="line"><span>    &lt;/template&gt;</span></span>
+<span class="line"><span>  &lt;/ElDialog&gt;</span></span>
+<span class="line"><span>&lt;/template&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>&lt;style lang=&quot;less&quot; scoped&gt;&lt;/style&gt;</span></span></code></pre></div><p><strong>实现函数式组件 createComponent</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>import { Component, createApp, DefineComponent, EmitsOptions } from &quot;vue&quot;;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>type Data = Record&lt;string, unknown&gt;;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>/**</span></span>
+<span class="line"><span> * 推断组件的事件参数类型</span></span>
+<span class="line"><span> * @template T - 组件类型</span></span>
+<span class="line"><span> */</span></span>
+<span class="line"><span>type EventParams&lt;T&gt; = T extends DefineComponent&lt;any, any, any, any, any, any, any, infer Emits extends EmitsOptions&gt;</span></span>
+<span class="line"><span>  ? Emits extends Record&lt;string, (...args: infer Args) =&gt; any&gt;</span></span>
+<span class="line"><span>    ? { [K in keyof Emits]: Parameters&lt;Emits[K]&gt; }</span></span>
+<span class="line"><span>    : Emits extends string[]</span></span>
+<span class="line"><span>      ? { [K in Emits[number]]: any[] }</span></span>
+<span class="line"><span>      : { [key: string]: any[] }</span></span>
+<span class="line"><span>  : { [key: string]: any[] };</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>/**</span></span>
+<span class="line"><span> * 创建一个 Vue 组件实例</span></span>
+<span class="line"><span> * @template T - 组件类型</span></span>
+<span class="line"><span> * @param {T} rootComponent - 要创建的根组件</span></span>
+<span class="line"><span> * @param {Data | null} [rootProps] - 传递给组件的 props</span></span>
+<span class="line"><span> * @returns {Promise&lt;{</span></span>
+<span class="line"><span> *   instance: T;</span></span>
+<span class="line"><span> *   on: &lt;K extends keyof EventParams&lt;T&gt;&gt;(</span></span>
+<span class="line"><span> *     event: K,</span></span>
+<span class="line"><span> *     handler: (...args: EventParams&lt;T&gt;[K]) =&gt; void</span></span>
+<span class="line"><span> *   ) =&gt; void;</span></span>
+<span class="line"><span> *   unmount: () =&gt; void;</span></span>
+<span class="line"><span> * }&gt;} - 返回包含组件实例、事件监听和卸载方法的对象</span></span>
+<span class="line"><span> */</span></span>
+<span class="line"><span>async function createComponent&lt;T extends Component&gt;(</span></span>
+<span class="line"><span>  rootComponent: T,</span></span>
+<span class="line"><span>  rootProps?: Data | null</span></span>
+<span class="line"><span>): Promise&lt;{</span></span>
+<span class="line"><span>  instance: T;</span></span>
+<span class="line"><span>  on: &lt;K extends keyof EventParams&lt;T&gt;&gt;(</span></span>
+<span class="line"><span>    event: K,</span></span>
+<span class="line"><span>    handler: (...args: EventParams&lt;T&gt;[K]) =&gt; void</span></span>
+<span class="line"><span>  ) =&gt; void;</span></span>
+<span class="line"><span>  unmount: () =&gt; void;</span></span>
+<span class="line"><span>}&gt; {</span></span>
+<span class="line"><span>  const mountNode = document.createElement(&#39;div&#39;);</span></span>
+<span class="line"><span>  const app = createApp(rootComponent, rootProps);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  // 事件监听器存储</span></span>
+<span class="line"><span>  const listeners = new Map&lt;string, ((...args: any[]) =&gt; void)[]&gt;();</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  // 挂载实例</span></span>
+<span class="line"><span>  const instance = app.mount(mountNode) as any;</span></span>
+<span class="line"><span>  document.body.appendChild(mountNode);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  // 劫持 emit 方法</span></span>
+<span class="line"><span>  const originalEmit = instance.$.emit;</span></span>
+<span class="line"><span>  instance.$.emit = (event: string, ...args: any[]) =&gt; {</span></span>
+<span class="line"><span>    originalEmit(event, ...args);</span></span>
+<span class="line"><span>    listeners.get(event)?.forEach(fn =&gt; fn(...args));</span></span>
+<span class="line"><span>  };</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  return {</span></span>
+<span class="line"><span>    instance: instance as T,</span></span>
+<span class="line"><span>    on: (event, handler) =&gt; {</span></span>
+<span class="line"><span>      const e = event as string;</span></span>
+<span class="line"><span>      const h = handler as (...args: any[]) =&gt; void;</span></span>
+<span class="line"><span>      const handlers = listeners.get(e) || [];</span></span>
+<span class="line"><span>      listeners.set(e, [...handlers, h]);</span></span>
+<span class="line"><span>    },</span></span>
+<span class="line"><span>    unmount: () =&gt; {</span></span>
+<span class="line"><span>      app.unmount();</span></span>
+<span class="line"><span>      document.body.removeChild(mountNode);</span></span>
+<span class="line"><span>      console.log(&quot;unmount&quot;);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  };</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>export default createComponent;</span></span></code></pre></div></div></div></main><footer class="VPDocFooter" data-v-39a288b8 data-v-e257564d><!--[--><!--]--><!----><!----></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"api-examples.md\":\"D45LFarx\",\"blog_create-component.md\":\"BqWisZvJ\",\"blog_excel-download.md\":\"BmRuUF9y\",\"blog_formatresponseattribute.md\":\"BCy1_0uo\",\"blog_swagger.md\":\"DEIMeJcm\",\"index.md\":\"C76sz1Yw\",\"markdown-examples.md\":\"CZt-jCCH\",\"support_alovajs.md\":\"DvhCLgW-\",\"support_ape-volo.md\":\"CnkY8CvL\",\"support_first.md\":\"DJxDF5r6\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"Bear.Core 文档\",\"description\":\"轻量灵活的 C# 核心库\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    
+  </body>
+</html>
