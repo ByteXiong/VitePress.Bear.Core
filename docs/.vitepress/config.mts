@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/',
   title: "Bear.Core.Admin",
-  description: "A VitePress Site",
+  description: "轻量灵活的 C# 核心库",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/image/logo.png",
