@@ -15,7 +15,6 @@ export default defineConfig({
   title: "Bear.Core.Admin",
   description: "轻量灵活的 C# 核心库",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: "/image/logo.png",
     nav: [
       { text: 'API', link: '/api-examples' },
@@ -23,8 +22,8 @@ export default defineConfig({
       { text: '技术支持', link: '/support/first.md' },
        { text: '链接',
         items: [
-          { text: 'gitee', link: '/item-1' },
-          { text: 'github', link: '/item-2' },
+          { text: 'gitee', link: 'https://gitee.com/ByteXiong/Bear.Core' },
+          { text: 'github', link: 'https://github.com/ByteXiong/Bear.Core' },
         ]
        }
     ],
