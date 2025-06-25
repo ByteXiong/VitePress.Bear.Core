@@ -2,6 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head:[
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/image/logo.png'
+      }
+    ]
+  ],
   base: '/',
   title: "Bear.Core.Admin",
   description: "轻量灵活的 C# 核心库",
