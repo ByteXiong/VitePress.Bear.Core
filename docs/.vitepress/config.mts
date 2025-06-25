@@ -49,8 +49,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'gitee', link: 'https://gitee.com/ByteXiong' },
-      { icon: 'github', link: 'https://github.com/ByteXiong' }
+      { icon: 'gitee', link: 'https://gitee.com/ByteXiong/Bear.Core' },
+      { icon: 'github', link: 'https://github.com/ByteXiong/Bear.Core' }
     ]
   }
 })
