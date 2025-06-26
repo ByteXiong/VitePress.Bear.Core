@@ -9,8 +9,8 @@ hero:
   image: "/image/logo.png"
   actions:
     - theme: brand
-      text: 开始
-      link: /
+      text: 项目地址
+      link: https://gitee.com/ByteXiong/Bear.Core
     - theme: alt
       text: 博客
       link: /api-examples
