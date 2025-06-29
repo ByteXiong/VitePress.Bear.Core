@@ -1,11 +1,14 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "BearPlatform"
-  text: "重新定义API集成\n简单\t精准\t高效"
-  tagline: "基于.NetCore，Vue3，Uni-App\nSqlSugar，Element Plus，Wot-Design-Uni"
+  text: |
+    全栈重构 API 集成体验
+    简单 · 精准 · 高效
+  tagline: |
+    基于 .NET Core、Vue 3、Uni-App
+    集成 SqlSugar、Element Plus、Wot Design Uni
   image: "/image/logo.png"
   actions:
     - theme: brand
@@ -16,22 +19,27 @@ hero:
       link: /api-examples
 
 features:
-  - title: 多端覆盖
-    details: 支持 Web、微信小程序、支付宝小程序、钉钉小程序、H5、APP、鸿蒙等端。
-  - title: 跨平台支持
-    details: 支持 Windows、Linux、macOS 等多平台
-  - title: 通用场景
-    details: 可用于多种业务场景，如后台管理、CRM 、OA 、WMS 、快递 、ERP 等。
-  - title:  前后端 API 快速集成
-    details: 使用AlovaJs快速生成前端API,无需编写任何代码。
-  - title: 技术选型
-    details: .Net 8、SqlSugar、AlovaJs、Vue3、Elment Plus 等前后端技术。
-  - title: 动态国际化
-    details: 支持国际化，支持动态配置。
-  - title: 权限控制
-    details: 支持权限控制，支持动态配置。
-  - title: 多租户模式
-    details: 分离数据库，支持多租户模式，支持动态配置。
-  
----
+  - title: "🌐 多端覆盖"
+    details: 支持 Web、H5、APP、鸿蒙，以及微信/支付宝/钉钉等小程序。
+    
+  - title: "⚙️ 跨平台支持"
+    details: 后端支持 Windows、Linux、macOS 等多操作系统。
 
+  - title: "🧩 通用业务场景"
+    details: 可应用于后台管理、CRM、OA、WMS、快递、ERP 等多种系统。
+
+  - title: "🚀 前后端 API 快速集成"
+    details: 使用 Alova.js 自动生成前端 API，无需手动编码。
+
+  - title: "💻 技术选型现代化"
+    details: 基于 .NET 8、SqlSugar、Alova.js、Vue 3、Element Plus 等技术栈。
+
+  - title: "🌍 动态国际化"
+    details: 支持多语言动态切换，可自定义语言配置。
+
+  - title: "🛡️ 权限系统灵活"
+    details: 支持多层级权限控制，规则可动态配置。
+
+  - title: "🏢 多租户架构"
+    details: 支持数据库分库、按租户隔离，满足 SaaS 场景。
+---
