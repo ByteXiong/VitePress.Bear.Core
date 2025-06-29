@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Bear.Core.Admin"
+  name: "BearPlatform"
   text: "重新定义API集成\n简单\t精准\t高效"
   tagline: "基于.NetCore，Vue3，Uni-App\nSqlSugar，Element Plus，Wot-Design-Uni"
   image: "/image/logo.png"

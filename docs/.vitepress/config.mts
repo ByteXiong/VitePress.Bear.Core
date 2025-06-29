@@ -12,7 +12,7 @@ export default defineConfig({
     ]
   ],
   base: '/',
-  title: "Bear.Core.Admin",
+  title: "BearPlatform - .NET全栈开源平台",
   description: "轻量灵活的 C# 核心库",
   themeConfig: {
     logo: "/image/logo.png",
