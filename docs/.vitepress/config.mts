@@ -2,55 +2,27 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head:[
-    [
-      'link',
-      {
-        rel: 'icon',
-        href: '/image/logo.png'
-      }
-    ]
-  ],
-  base: '/',
-  title: "BearPlatform - .NET全栈开源平台",
-  description: "轻量灵活的 C# 核心库",
+  title: "BearPaltform",
+  description: "A VitePress Site",
   themeConfig: {
-    logo: "/image/logo.png",
+    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'API', link: '/api-examples' },
-      { text: '博客', link: '/blog/create-component.md' },
-      { text: '技术支持', link: '/support/first.md' },
-       { text: '链接',
-        items: [
-          { text: 'gitee', link: 'https://gitee.com/ByteXiong/Bear.Core' },
-          { text: 'github', link: 'https://github.com/ByteXiong/Bear.Core' },
-        ]
-       }
+      { text: 'Home', link: '/' },
+      { text: 'Examples', link: '/markdown-examples' }
     ],
-    
-    
 
     sidebar: [
-    {
-        text: '博客',
-        items: [
-          { text: 'Vue3函数式调用组件', link: '/blog/create-component.md' },
-          { text: '前端Table下载excle', link: '/blog/excel-download.md' }
-        ]
-      },
       {
-        text: '技术支持',
+        text: 'Examples',
         items: [
-          { text: '序言', link: '/support/first.md' },
-          { text: 'AlovaJs', link: '/support/alovajs.md' },
-          { text: 'ApeVolo后端框架', link: '/support/ape-volo.md' }
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'gitee', link: 'https://gitee.com/ByteXiong/Bear.Core' },
-      { icon: 'github', link: 'https://github.com/ByteXiong/Bear.Core' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })
