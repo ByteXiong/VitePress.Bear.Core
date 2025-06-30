@@ -8,5 +8,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "deploy": "npm run docs:build && echo bear.js.org > docs/.vitepress/dist/CNAME && gh-pages -d docs/.vitepress/dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
