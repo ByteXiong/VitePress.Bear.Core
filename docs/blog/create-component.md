@@ -16,6 +16,7 @@ const openMonacoCode=async (row: TableColumnInfo)=>{
    on('update:visible', () => {
           unmount()
    })
+   
 }
 
 
