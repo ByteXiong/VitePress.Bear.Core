@@ -9,6 +9,7 @@ import{_ as s,c as a,o as p,ae as e}from"./chunks/framework.Dgg8-8ov.js";const d
 <span class="line"><span>   on(&#39;update:visible&#39;, () =&gt; {</span></span>
 <span class="line"><span>          unmount()</span></span>
 <span class="line"><span>   })</span></span>
+<span class="line"><span>   </span></span>
 <span class="line"><span>}</span></span></code></pre></div><p><strong>子组件内部 (monaco-code.vue)</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>&lt;script setup lang=&quot;tsx&quot;&gt;</span></span>
 <span class="line"><span>import type * as monaco from &#39;monaco-editor&#39;;</span></span>
 <span class="line"><span>import { ref } from &#39;vue&#39;;</span></span>
