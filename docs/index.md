@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 项目地址
-      link: https://gitee.com/ByteXiong/Bear.Core
+      link: https://gitee.com/ByteXiong/BearPlatform
     - theme: alt
       text: 博客
       link: /api-examples

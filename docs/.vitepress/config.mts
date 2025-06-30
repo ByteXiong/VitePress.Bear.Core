@@ -22,8 +22,8 @@ export default defineConfig({
       { text: '技术支持', link: '/support/first.md' },
        { text: '链接',
         items: [
-          { text: 'gitee', link: 'https://gitee.com/ByteXiong/Bear.Core' },
-          { text: 'github', link: 'https://github.com/ByteXiong/Bear.Core' },
+          { text: 'gitee', link: 'https://gitee.com/ByteXiong/BearPlatform' },
+          { text: 'github', link: 'https://github.com/ByteXiong/BearPlatform' },
         ]
        }
     ],
@@ -49,8 +49,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'gitee', link: 'https://gitee.com/ByteXiong/Bear.Core' },
-      { icon: 'github', link: 'https://github.com/ByteXiong/Bear.Core' }
+      { icon: 'gitee', link: 'https://gitee.com/ByteXiong/BearPlatform' },
+      { icon: 'github', link: 'https://github.com/ByteXiong/BearPlatform' }
     ]
   }
 })
